@@ -1,0 +1,17 @@
+{
+  "name": "expo-legacy-browser-support",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "LinusU/expo-legacy-browser-support",
+  "dependencies": {
+    "@expo/webpack-config": "^0.12.20",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.7",
+    "whatwg-fetch": "^3.2.0"
+  },
+  "peerDependencies": {
+    "babel-preset-expo": "^8.0.0",
+    "babel-plugin-react-native-web": "^0.12.0",
+    "expo": "^38.0.0"
+  }
+}
