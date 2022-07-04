@@ -22,10 +22,6 @@ module.exports = function (api) {
       ['@babel/plugin-syntax-flow'],
       ['babel-plugin-react-native-web'],
       ['babel-plugin-module-resolver', { alias: { 'react-native-vector-icons': '@expo/vector-icons' } }],
-      ['@babel/plugin-proposal-optional-catch-binding'],
-      ['@babel/plugin-proposal-class-properties', { loose: true }],
-      ['@babel/plugin-syntax-dynamic-import'],
-      ['@babel/plugin-syntax-export-default-from'],
       ['@babel/plugin-transform-react-jsx']
     ]
   }
